@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito";
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+@font-face {
+    src: url("fonts/nunito-regular.ttf");
+    font-family: "Nunito";
+}
+
+.hidden{
+    display: none;
+}
+
+.owl-nav{
+    position: absolute;
+    top: 38%;
+    width: 100%;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+}
+
+.owl-theme .owl-nav{
+    margin: 0px;
+}
+
+.owl-dot.active span{
+     background-color: #fff!important;
+}
+
+.owl-dot span{
+    background-color: rgb(175,200,205) !important;
+}
+
+.wrapper{
+    margin: 0px 350px;
+}
+
+@media screen and (max-width: 1660px){
+    .wrapper{
+        margin: 0px 175px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .wrapper{
+        margin: 0px 100px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .wrapper{
+        margin: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .wrapper{
+        margin: 0px 25px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .wrapper{
+        margin: 0px 15px;
+    }
+}
